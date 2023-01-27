@@ -11,7 +11,7 @@
 
 # Main
 ![서비스 main페이지 소개](/project_3_main_gif.gif)
-![서비스 시연영상](https://www.youtube.com/watch?v=pI_dkQX9XOw)
+[서비스 시연영상](https://www.youtube.com/watch?v=pI_dkQX9XOw)
 출처,저작권:Member4
 
 ## Why?
