@@ -109,4 +109,4 @@ Member5(DS): 백내장 판별 서비스 모델링 (ResNet), 뉴스기사 요약 
   
 
 # Result
-[슬기로운 집사생활 서비스 배포링크](http://xn--ok0by6qo0gvfq9f86io3f972a.xn--h32bi4v.xn--3e0b707e/)
+~~[슬기로운 집사생활 서비스 배포링크](http://xn--ok0by6qo0gvfq9f86io3f972a.xn--h32bi4v.xn--3e0b707e/)~~ 링크 본인 인스턴스로 재배포예정
