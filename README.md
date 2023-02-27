@@ -97,7 +97,7 @@ Member5(DS): 백내장 판별 서비스 모델링 (ResNet), 뉴스기사 요약 
 
 ## 서비스환경 버전
 
-- Ubuntu 18.04
+- Ubuntu 20.04
 - Python 3.10.6
 - Django 4.1.5
 - mysql-connector-python 8.0.31
