@@ -80,7 +80,7 @@ Member5(DS): 백내장 판별 서비스 모델링 (ResNet), 뉴스기사 요약 
 - Kafka
   
 ### 데이터 처리
-- Elasticsearch
+- Elasticsearch 7
 - Logstash
 - Spark
 - Airflow
@@ -98,15 +98,38 @@ Member5(DS): 백내장 판별 서비스 모델링 (ResNet), 뉴스기사 요약 
 ## 서비스환경 버전
 
 - Ubuntu 18.04
-- Python 3.13.6
+- Python 3.10.6
 - Django 4.1.5
 - mysql-connector-python 8.0.31
 - mysqlclient 2.1.1
-- tensorflow 2.9.2
+- tensorflow 2.10
 - torch 1.11
 - opencv-python 4.7.68
-- protobuf 3.22.1
-  
+- protobuf 3.19.6
+
+## Kibana_DataMarket
+
+![DataMarket](./Kibana_Data_Market.PNG)
 
 # Result
 ~~[슬기로운 집사생활 서비스 배포링크](http://xn--ok0by6qo0gvfq9f86io3f972a.xn--h32bi4v.xn--3e0b707e/)~~ 링크 본인 인스턴스로 재배포예정
+
+## Link
+
+### Project3 서비스 개발을 하면서, 공부하게된 내용 + 개발코드 상세 GitHub링크
+
+- [ELK](https://github.com/LeNaHod/Manuals/blob/master/ELK.md)
+- [Server_construction](https://github.com/LeNaHod/Manuals/blob/master/sersver.md)
+- [Etc](https://github.com/LeNaHod/Manuals/blob/master/install_setting_Manual.md)
+- [Etc2](https://github.com/LeNaHod/Manuals/blob/master/Operating_manual.md)
+
+
+<details>
+<summary>서비스 추가 및 보완내용</summary>
+
+- ElasticSearch를 이용한 DataMarket추가
+- Kafka를 이용하여 트윗내용 추가
+- 기사수집 자동화
+- Mysql에 저장된 서비스 로그데이터,이미지데이터 Hadoop분산저장
+
+</details>
