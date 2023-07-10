@@ -36,7 +36,7 @@ Member1(DS):뉴스기사 요약 서비스 모델링(KoBART)
 
 Member2(DS): 백내장 판별 서비스 모델링 및 최적화(EfficientNet)
 
-Member3(DE,ME):서버구축(GCP기반),ELK 데이터마켓구축,ELK를통한 키워드로 워드클라우드 생성
+Member3(DE,ME):서버구축(GCP기반),ELK 데이터마켓구축,ELK를통한 키워드로 워드클라우드 생성, 데이터 전처리 및 파이프라인 구축
 
 Member4(DS): 백내장 판별 서비스 모델링(VGG16), 뉴스기사 요약 서비스 모델링(KoBART)
 
@@ -77,19 +77,21 @@ Member5(DS): 백내장 판별 서비스 모델링 (ResNet), 뉴스기사 요약 
 
 ### 데이터 수집
 - Selenium
-- Kafka
+- Kafka(프로젝트에 실제 사용 보류)
   
 ### 데이터 처리
 - Elasticsearch 7
 - Logstash
 - Spark
-- Airflow
+
 
 ### 데이터 적재
 - Hadoop
 - Mysql
-- Zookeeper
-- Mongo DB
+- Zookeeper (프로젝트에 실제사용 보류)
+- Mongo DB (프로젝트에 실제사용 보류)
+
+※ 트위터 API 오류로 Kafka, Mongo DB, Zookeeper는 실제 프로젝트에 적용 보류중
 
 ## 아키텍쳐 정의서
 
@@ -127,9 +129,7 @@ Member5(DS): 백내장 판별 서비스 모델링 (ResNet), 뉴스기사 요약 
 <details>
 <summary>서비스 추가 및 보완내용</summary>
 
-- ElasticSearch를 이용한 DataMarket추가
 - Kafka를 이용하여 트윗내용 추가
 - 기사수집 자동화
-- Mysql에 저장된 서비스 로그데이터,이미지데이터 Hadoop분산저장
 
 </details>
