@@ -84,6 +84,9 @@ Member5(DS): 백내장 판별 서비스 모델링 (ResNet), 뉴스기사 요약 
 - Logstash
 - Spark
 
+### 데이터 시각화
+
+- Kibana
 
 ### 데이터 적재
 - Hadoop
@@ -96,6 +99,7 @@ Member5(DS): 백내장 판별 서비스 모델링 (ResNet), 뉴스기사 요약 
 ## 아키텍쳐 정의서
 
 ![Architecture definition](/%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%A0%95%EC%9D%98%EC%84%9C.PNG)
+
 
 ## 서비스환경 버전
 
@@ -114,14 +118,21 @@ Member5(DS): 백내장 판별 서비스 모델링 (ResNet), 뉴스기사 요약 
 ![DataMarket](./Kibana_Data_Market.PNG)
 
 # Result
-~~[슬기로운 집사생활 서비스 배포링크](http://xn--ok0by6qo0gvfq9f86io3f972a.xn--h32bi4v.xn--3e0b707e/)~~ 링크 본인 인스턴스로 재배포예정
+[슬기로운 집사생활 서비스 배포링크](https://my-petservice.site) 링크 본인 인스턴스로 재배포예정
+
+## ▲현재 본인 인스턴스로 재배포되고있는 서비스 아키텍쳐
+
+![New_Architecture](./서비스아키텍쳐.jpg)
+
+<mark> GCP개인 인스턴스로 옮겨가는 과정에서 서비스를 처음부터 다시 만들었으므로 변동,자세한 내용은 링크참조 </mark>
 
 ## Link
 
 ### Project3 서비스 개발을 하면서, 공부하게된 내용 + 개발코드 상세 GitHub링크
 
+- [Manuals](https://github.com/LeNaHod/Manuals)
 - [ELK](https://github.com/LeNaHod/Manuals/blob/master/ELK.md)
-- [Server_construction](https://github.com/LeNaHod/Manuals/blob/master/sersver.md)
+- [Server_construction](https://github.com/LeNaHod/Manuals/blob/master/server.md)
 - [Etc](https://github.com/LeNaHod/Manuals/blob/master/install_setting_Manual.md)
 - [Etc2](https://github.com/LeNaHod/Manuals/blob/master/Operating_manual.md)
 
@@ -130,6 +141,6 @@ Member5(DS): 백내장 판별 서비스 모델링 (ResNet), 뉴스기사 요약 
 <summary>서비스 추가 및 보완내용</summary>
 
 - Kafka를 이용하여 트윗내용 추가
-- 기사수집 자동화
+- 기사수집 자동화(Airflow)
 
 </details>
